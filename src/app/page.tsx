@@ -20,7 +20,7 @@ const perks = [
     name: "For the Planet",
     Icon: Leaf,
     description:
-      "3% of all sales proceeds goes to te preservation and restoration of the natural environment",
+      "3% of all sales proceeds goes to the preservation and restoration of the natural environment",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <MaxWidthWrapper>
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
-          <h1 className="tex-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Your marketplace for high-quality{" "}
             <span className="text-blue-600">digital assets</span>.
           </h1>
